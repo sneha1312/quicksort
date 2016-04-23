@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 	v[10]="india";
 	v[11]="usa";
 	std::cout<<"v before qsort: ";
-	
+	//my first change
 	std::for_each(v.begin(), v.end(), print<std::string>);
 	std::cout<<'\n';
 
